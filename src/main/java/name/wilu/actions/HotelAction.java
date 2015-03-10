@@ -13,9 +13,11 @@ import org.apache.struts2.convention.annotation.Result;
 public class HotelAction extends ActionSupport implements ModelDriven<Network> {
 
     private final HotelService service = new HotelService();
+    private Network network;
 
     public Network getModel() {
-        return service.readNetwork();
+        if (network == null) network = service.readNetwork();
+        return network;
     }
 
     public String addRow(){
