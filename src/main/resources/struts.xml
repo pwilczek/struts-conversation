@@ -7,4 +7,5 @@
   <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
   <constant name="struts.devMode" value="true"/>
   <constant name="struts.ui.theme" value="simple"/>
+  <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
 </struts>

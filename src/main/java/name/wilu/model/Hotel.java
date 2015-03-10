@@ -2,8 +2,11 @@ package name.wilu.model;
 
 public class Hotel {
 
-    private final String name;
-    private final int capacity;
+    private String name;
+    private int capacity;
+
+    public Hotel() {
+    }
 
     public Hotel(String name, int capacity) {
         this.name = name;
@@ -16,5 +19,13 @@ public class Hotel {
 
     public int getCapacity() {
         return capacity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 }
