@@ -5,7 +5,7 @@ import name.wilu.model.Network;
 
 public class HotelService {
 
-    public Network readNetwork(){
+    public Network readNetwork() {
         Network network = new Network();
         network.addHotel(new Hotel("Galaxy", 4));
         network.addHotel(new Hotel("Wyspianski", 22));
