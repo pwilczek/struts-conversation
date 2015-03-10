@@ -15,7 +15,7 @@
     <s:iterator value="hotels">
         <tr>
             <td><s:property value="name"/></td>
-            <td><s:property value="capacity"/></td>
+            <td><s:textfield type="text" name="capacity"/></td>
         </tr>
     </s:iterator>
 </table>
